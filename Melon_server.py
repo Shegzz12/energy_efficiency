@@ -6,9 +6,9 @@ util_path = "util.py"
 app = Flask(__name__)
 
 # Initialize values to be used if no data is received
-val1 = 25.03
+val1 = 40.03
 val2 = 80.00
-val3 = 5.00
+val3 = 500
 
 @app.route('/input_data', methods=['POST'])
 def receive_data():
